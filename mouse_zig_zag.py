@@ -68,7 +68,7 @@ def on_key_press(event):
 
 # Setup tkinter GUI
 root = tk.Tk()
-root.title("Activity Simulation Program")
+root.title("Mouse")
 
 start_button = tk.Button(root, text="Start", fg="green", command=start_program)
 start_button.pack(pady=10)
